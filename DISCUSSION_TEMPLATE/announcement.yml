@@ -1,5 +1,4 @@
 title: "[Release] "
-labels: ["announcement", "release"]
 body:
   - type: markdown
     attributes:
