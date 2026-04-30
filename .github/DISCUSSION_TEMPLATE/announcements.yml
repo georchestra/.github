@@ -1,18 +1,10 @@
-title: "[Release] "
+title: "e.g., geOrchestra 25.0.3, Gateway 2.0.1"
 body:
   - type: markdown
     attributes:
       value: |
-        ## 📢 Release Information
-        Fill out the sections below. **If a section is not applicable, you can leave it blank or delete the placeholder text.**
-
-  - type: input
-    id: version
-    attributes:
-      label: Version Name
-      description: "e.g., geOrchestra 25.0.3, Gateway 2.0.1"
-    validations:
-      required: true
+        ## Release Information
+        Fill out the sections below. **If a section is not applicable, you can leave it blank.**
 
   - type: textarea
     id: new_features
@@ -40,10 +32,11 @@ body:
   - type: markdown
     attributes:
       value: "---"
-  - type: textarea
+  - type: input
     id: changelog_link
     attributes:
       label: 🔗 Full Changelog Link
-      description: "Link to the GitHub Release tag"
+      description: "Link to the full changelog for this release (e.g., GitHub Release page)"
+      placeholder: "https://github.com/georchestra/geoserver/releases/tag/2.27.4-georchestra-02"
     validations:
       required: true
