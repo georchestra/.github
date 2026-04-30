@@ -3,10 +3,10 @@ body:
   - type: dropdown
     id: type_of_release
     attributes:
-      label: Release Type
+      label: 📜 Release Type
       options:
-        - Stable
-        - Pre-release
+        - *Stable*
+        - *Pre-release*
       default: 0
     validations:
       required: true
@@ -23,6 +23,7 @@ body:
 
         #### 🐛 Bugfixes
   
+        ---
     validations:
       required: false
 
