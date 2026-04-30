@@ -1,5 +1,16 @@
 title: "e.g., geOrchestra 25.0.3, Gateway 2.0.1"
 body:
+  - type: dropdown
+    id: type_of_release
+    attributes:
+      label: Release Type
+      options:
+        - Stable
+        - Pre-release
+      default: 0
+    validations:
+      required: true
+
   - type: textarea
     id: release_summary
     attributes:
