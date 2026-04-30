@@ -1,11 +1,5 @@
 title: "e.g., geOrchestra 25.0.3, Gateway 2.0.1"
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Release Information
-        Fill out the sections below. **If a section is not applicable, you can leave it blank.**
-
   - type: textarea
     id: release_summary
     attributes:
