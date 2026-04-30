@@ -1,5 +1,45 @@
 title: "[Release] "
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📢 Release Information
+        Fill out the sections below. **If a section is not applicable, you can leave it blank or delete the placeholder text.**
+
+  - type: input
+    id: version
+    attributes:
+      label: Version Name
+      description: "e.g., geOrchestra 25.0.3, Gateway 2.0.1"
+    validations:
+      required: true
+
+  - type: textarea
+    id: new_features
+    attributes:
+      label: 🚀 New Features & Configuration
+    validations:
+      required: false
+
+  - type: textarea
+    id: improvements
+    attributes:
+      label: 🛠 Improvements & Cleanup
+      placeholder: "List improvements or dependency updates..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: bugfixes
+    attributes:
+      label: 🐛 Bugfixes
+      placeholder: "Fixed #4618, etc."
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: "---"
   - type: textarea
     id: changelog_link
     attributes:
