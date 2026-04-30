@@ -7,31 +7,19 @@ body:
         Fill out the sections below. **If a section is not applicable, you can leave it blank.**
 
   - type: textarea
-    id: new_features
+    id: release_summary
     attributes:
-      label: 🚀 New Features & Configuration
+      label: Summary
+      value: |
+        ### 🚀 New Features & Configuration
+
+        ### 🛠 Improvements & Cleanup
+
+        ### 🐛 Bugfixes
+  
     validations:
       required: false
 
-  - type: textarea
-    id: improvements
-    attributes:
-      label: 🛠 Improvements & Cleanup
-      placeholder: "List improvements or dependency updates..."
-    validations:
-      required: false
-
-  - type: textarea
-    id: bugfixes
-    attributes:
-      label: 🐛 Bugfixes
-      placeholder: "Fixed #4618, etc."
-    validations:
-      required: false
-
-  - type: markdown
-    attributes:
-      value: "---"
   - type: input
     id: changelog_link
     attributes:
