@@ -15,12 +15,13 @@ body:
     id: release_summary
     attributes:
       label: Summary
+      description: "Remove unnecessary information."
       value: |
-        ### 🚀 New Features & Configuration
+        #### 🚀 New Features & Configuration
 
-        ### 🛠 Improvements & Cleanup
+        #### 🛠 Improvements & Cleanup
 
-        ### 🐛 Bugfixes
+        #### 🐛 Bugfixes
   
     validations:
       required: false
@@ -28,8 +29,8 @@ body:
   - type: input
     id: changelog_link
     attributes:
-      label: 🔗 Full Changelog Link
-      description: "Link to the full changelog for this release (e.g., GitHub Release page)"
+      label: 🔗 Release Link
+      description: "Link to the this release"
       placeholder: "https://github.com/georchestra/geoserver/releases/tag/2.27.4-georchestra-02"
     validations:
       required: true
