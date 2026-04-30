@@ -11,7 +11,7 @@ body:
     id: version
     attributes:
       label: Version Name
-      description: e.g., geOrchestra 25.0.3, Gateway 2.0.1
+      description: "e.g., geOrchestra 25.0.3, Gateway 2.0.1"
     validations:
       required: true
 
@@ -19,10 +19,6 @@ body:
     id: new_features
     attributes:
       label: 🚀 New Features & Configuration
-      description: Enter features here.
-      value: |
-        - Feature A: description
-        - Config change: `key: value`
     validations:
       required: false
 
@@ -30,8 +26,7 @@ body:
     id: improvements
     attributes:
       label: 🛠 Improvements & Cleanup
-      value: |
-        List improvements or dependency updates...
+      placeholder: "List improvements or dependency updates..."
     validations:
       required: false
 
@@ -39,19 +34,18 @@ body:
     id: bugfixes
     attributes:
       label: 🐛 Bugfixes
-      value: |
-        Fixed #4618, etc.
+      placeholder: "Fixed #4618, etc."
     validations:
       required: false
 
   - type: markdown
     attributes:
-      value: ---
+      value: "---"
 
   - type: textarea
     id: changelog_link
     attributes:
       label: 🔗 Full Changelog Link
-      description: Link to the GitHub Release tag
+      description: "Link to the GitHub Release tag"
     validations:
       required: true
