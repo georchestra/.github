@@ -5,8 +5,8 @@ body:
     attributes:
       label: 📜 Release Type
       options:
-        - *Stable*
-        - *Pre-release*
+        - Stable
+        - Pre-release
       default: 0
     validations:
       required: true
