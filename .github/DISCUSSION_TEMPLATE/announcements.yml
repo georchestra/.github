@@ -17,11 +17,13 @@ body:
       label: Summary
       description: "Remove unnecessary information."
       value: |
-        #### 🚀 New Features & Configuration
+        ## 🚀 New Features & Configuration
 
-        #### 🛠 Improvements & Cleanup
+        ### Sub title
 
-        #### 🐛 Bugfixes
+        ## 🛠 Improvements & Cleanup
+
+        ## 🐛 Bugfixes
   
         ---
     validations:
